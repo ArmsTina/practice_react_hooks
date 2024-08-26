@@ -1,6 +1,7 @@
 # React Hooks Learning Project
 
 This project is dedicated to learning and practicing React Hooks, with the help of lecture videos provided by '별코딩'. The videos are available on YouTube in Korean only, without any translations.
+I will write comments in English as much as possible. ChatGPT will check grammar.
 
 You can access the lecture series here: [React Hooks Playlist by 별코딩](https://youtube.com/playlist?list=PLZ5oZ2KmQEYjwhSxjB_74PoU6pmFzgVMO&si=SYMGVZfcQi-RJPPO).
 
