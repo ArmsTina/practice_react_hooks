@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+/* To seperate hooks examples */
+.lists > div{
+  margin-bottom: 50px;
+}
+
+.lists > div > li{
+  font-size: 32px;
+  font-weight: bold;
+}
