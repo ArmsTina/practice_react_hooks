@@ -1,18 +1,22 @@
 import './App.css';
+import Practice_useEffect from './hooks/Practice_useEffect';
 import Practice_useState from './hooks/Practice_useState';
+import {Routes, Route, Link} from 'react-router-dom';
+import {HStack, VStack} from '@chakra-ui/react'
 
 function App() {
   return (
     <>
-      <ol className="lists">
+      <HStack>
         <div>
-          <li>useState</li>
-          <Practice_useState/>
+          <nav><Link to="/usestate">useState</Link></nav>
         </div>
         <div>
-          <li>useEffect</li>
+          <nav><Link to="/useeffect">useEffect</Link></nav>
         </div>
-      </ol>
+      </HStack>
+      <Routes><Route path="/usestate" element={<Practice_useState/>}/></Routes>
+      <Routes><Route path="/useeffect" element={<Practice_useEffect/>}/></Routes>
     </>
   );
 }
