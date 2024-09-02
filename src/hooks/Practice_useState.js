@@ -35,6 +35,7 @@ export default function Practice_useState(){
 
     return(
         <>
+            <h1>You are on useState.</h1>
             <span>Current Time: {time}:00 </span>
             <button onClick={timeIncrease}>Update Time</button>
             <p></p>
