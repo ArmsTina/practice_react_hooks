@@ -15,7 +15,6 @@ function App() {
         <nav><Link to="/usestate">useState</Link></nav>
         <nav><Link to="/useeffect1">useEffect 1</Link></nav>
         <nav><Link to="/useeffect2">useEffect 2</Link></nav>
-        <nav><Link to="/useeffect2">useEffect 2</Link></nav>
         <nav><Link to="/useref1">useRef 1</Link></nav>
         <nav><Link to="/useref2">useRef 2</Link></nav>
       </HStack>

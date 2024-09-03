@@ -38,6 +38,7 @@ export default function Practice_useRef1() {
 
     return (
         <>
+            <h1>You are on useRef1</h1>
             <p>Var: {countVar}</p>
             <button onClick={increaseCountVar}>Increase Var</button>
 

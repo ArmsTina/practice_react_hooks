@@ -30,6 +30,7 @@ export default function Practice_useEffect2(){
 
     return(
         <>
+            <h1>You are on useEffect2</h1>
             {/* Timer is rendered when showTimer is true */}
             {showTimer && <Timer/>}
             <button onClick={handleToggleTimer}>Toggle Timer</button>

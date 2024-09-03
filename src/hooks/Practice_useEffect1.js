@@ -36,7 +36,7 @@ export default function Practice_useEffect1(){
     // When a state is changed, it will cause a re-render.
     return(
         <>
-            <h1>You are on useEffect</h1>
+            <h1>You are on useEffect1</h1>
             <button onClick={handleCountUpdate}>Update</button>
             <p>Count: {count}</p>
             <input type='text' value={name} onChange={handleInputChange}></input>

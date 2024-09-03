@@ -22,6 +22,7 @@ export default function Practice_useRef2() {
 
     return (
         <>
+            <h1>You are on useRef2</h1>
             <input 
                 type="text" 
                 ref={inputRef} 
