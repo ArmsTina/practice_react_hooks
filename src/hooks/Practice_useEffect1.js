@@ -17,7 +17,7 @@ export default function Practice_useEffect1(){
     // If there is no dependency array, useEffect runs on every render. If the array is empty, it runs only on the first render.
     // Regardless of the array, every useEffect runs at least once on the initial render.
     useEffect(() => {
-        console.log('No dependency array');
+        console.log('No dependency array, always get called');
     })
     useEffect(() => {
         console.log('Only on first render');
@@ -37,6 +37,7 @@ export default function Practice_useEffect1(){
     return(
         <>
             <h1>You are on useEffect1</h1>
+            <h2>Check console log</h2>
             <button onClick={handleCountUpdate}>Update</button>
             <p>Count: {count}</p>
             <input type='text' value={name} onChange={handleInputChange}></input>
